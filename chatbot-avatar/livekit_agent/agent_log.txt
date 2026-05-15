@@ -1,0 +1,1356 @@
+﻿python : INFO:livekit:livekit_ffi::server:153:livekit_ffi::server - initializing ffi server v0.12.53
+At line:1 char:116
++ ... t_new\chatbot-avatar\livekit_agent'; python agent.py dev *>&1 | Out-F ...
++                                          ~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (INFO:livekit:li...server v0.12.53:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+DEBUG:asyncio:Using proactor: IocpProactor
+    15:53:52.834 DEBUG    asyncio            Using proactor: IocpProactor  
+DEV:livekit.agents:Watching C:\Users\Dell\Downloads\FYP_Project_new 2 (1)\FYP_Project_new 
+2\FYP_Project_new\chatbot-avatar\livekit_agent
+    15:53:52.851 DEV      livekit.agents     Watching                          
+                                             C:\Users\Dell\Downloads\FYP_Proà  
+                                             2 (1)\FYP_Project_new             
+                                             2\FYP_Project_new\chatbot-avataà  
+DEBUG:asyncio:Using proactor: IocpProactor
+    15:55:17.390 DEBUG    asyncio            Using proactor: IocpProactor  
+INFO:livekit.agents:starting worker
+    15:55:17.502 INFO     livekit.agents     starting worker  
+                                         {"version": "1.5.8", "rtc-version": 
+"1.1.7"}
+INFO:livekit.agents:plugin registered
+    15:55:17.546 INFO     livekit.agents     plugin registered  
+                                         {"plugin": "livekit.plugins.openai", 
+"version": "1.5.8"}
+INFO:livekit.agents:plugin registered
+    15:55:17.600 INFO     livekit.agents     plugin registered  
+                                         {"plugin": "livekit.plugins.groq", 
+"version": "1.5.8"}
+INFO:livekit.agents:plugin registered
+    15:55:17.614 INFO     livekit.agents     plugin registered  
+                                         {"plugin": "livekit.plugins.silero", 
+"version": "1.5.8"}
+INFO:livekit.agents:plugin registered
+    15:55:17.658 INFO     livekit.agents     plugin registered  
+                                         {"plugin": "livekit.plugins.simli", 
+"version": "1.5.8"}
+INFO:livekit.agents:HTTP server listening on :61126
+    15:55:17.714 INFO     livekit.agents     HTTP server listening on :61126  
+INFO:livekit.agents:registered worker
+    15:55:18.957 INFO     livekit.agents     registered worker  
+                                         {"agent_name": "orbi", "id": 
+"AW_zrjidK9J63Ui", "url": "wss://orbi-pz7jflb7.livekit.cloud", "region": "India
+West", "protocol": 17}
+INFO:livekit.agents:received job request
+    15:55:19.175 INFO     livekit.agents     received job request  
+                                         {"job_id": "AJ_UPUBjoYo7uPy", 
+"dispatch_id": "AD_j2oFQpzq7AcE", "room": "orbi-avatar", "room_id": 
+"RM_5ZLRDjg4xxe2", "agent_name": "orbi", "resuming": false, "enable_recording":
+false}
+    15:55:19.178 INFO     livekit.agents     received job request  
+                                         {"job_id": "AJ_vE2cR76wknrv", 
+"dispatch_id": "AD_TxyznJk7wXYk", "room": "orbi-avatar", "room_id": 
+"RM_5ZLRDjg4xxe2", "agent_name": "orbi", "resuming": false, "enable_recording":
+false}
+    15:55:19.182 INFO     livekit.agents     received job request  
+                                         {"job_id": "AJ_LfvQ8wC4PCdF", 
+"dispatch_id": "AD_fK6VpUy2JY5f", "room": "orbi-avatar", "room_id": 
+"RM_5ZLRDjg4xxe2", "agent_name": "orbi", "resuming": false, "enable_recording":
+false}
+INFO:livekit.agents:received job request
+INFO:livekit.agents:received job request
+DEBUG:livekit.agents:received assignment
+    15:55:19.402 DEBUG    livekit.agents     received assignment  
+                                         {"agent_name": "orbi", "room_id": 
+"RM_5ZLRDjg4xxe2", "room": "orbi-avatar", "job_id": "AJ_UPUBjoYo7uPy", 
+"dispatch_id": "AD_j2oFQpzq7AcE", "enable_recording": false}
+    15:55:19.406 DEBUG    livekit.agents     received assignment  
+                                         {"agent_name": "orbi", "room_id": 
+"RM_5ZLRDjg4xxe2", "room": "orbi-avatar", "job_id": "AJ_LfvQ8wC4PCdF", 
+"dispatch_id": "AD_fK6VpUy2JY5f", "enable_recording": false}
+    15:55:19.409 DEBUG    livekit.agents     received assignment  
+                                         {"agent_name": "orbi", "room_id": 
+"RM_5ZLRDjg4xxe2", "room": "orbi-avatar", "job_id": "AJ_vE2cR76wknrv", 
+"dispatch_id": "AD_TxyznJk7wXYk", "enable_recording": false}
+    15:55:19.412 WARNING  livekit.agents     no warmed process available for   
+                                             job, waiting for one to be        
+                                             created                           
+                                         {"job_id": "AJ_UPUBjoYo7uPy"}
+DEBUG:livekit.agents:received assignment
+DEBUG:livekit.agents:received assignment
+WARNING:livekit.agents:no warmed process available for job, waiting for one to be created
+WARNING:livekit.agents:no warmed process available for job, waiting for one to be created
+    15:55:19.417 WARNING  livekit.agents     no warmed process available for   
+                                             job, waiting for one to be        
+                                             created                           
+                                         {"job_id": "AJ_LfvQ8wC4PCdF"}
+    15:55:19.421 WARNING  livekit.agents     no warmed process available for   
+                                             job, waiting for one to be        
+                                             created                           
+                                         {"job_id": "AJ_vE2cR76wknrv"}
+WARNING:livekit.agents:no warmed process available for job, waiting for one to be created
+INFO:livekit.agents:initializing job runner
+    15:55:19.593 INFO     livekit.agents     initializing job runner  
+                                         {"tid": 20056}
+INFO:livekit.agents:initializing job runner
+    15:55:19.650 INFO     livekit.agents     initializing job runner  
+                                         {"tid": 15160}
+INFO:livekit.agents:initializing job runner
+    15:55:19.696 INFO     livekit.agents     initializing job runner  
+                                         {"tid": 11820}
+DEBUG:asyncio:Using proactor: IocpProactor
+    15:55:19.752 DEBUG    asyncio            Using proactor: IocpProactor  
+DEBUG:asyncio:Using proactor: IocpProactor
+    15:55:19.763 DEBUG    asyncio            Using proactor: IocpProactor  
+DEBUG:asyncio:Using proactor: IocpProactor
+    15:55:19.783 DEBUG    asyncio            Using proactor: IocpProactor  
+INFO:livekit.agents:job runner initialized
+    15:55:19.808 INFO     livekit.agents     job runner initialized  
+                                         {"tid": 20056, "elapsed_time": 0.16}
+INFO:livekit.agents:job runner initialized
+    15:55:19.824 INFO     livekit.agents     job runner initialized  
+                                         {"tid": 15160, "elapsed_time": 0.13}
+INFO:livekit.agents:job runner initialized
+    15:55:19.925 INFO     livekit.agents     job runner initialized  
+                                         {"tid": 11820, "elapsed_time": 0.17}
+INFO:orbi-agent:Session already active ù skipping duplicate dispatch for room: orbi-avatar
+WARNING:livekit.agents:The job task completed without establishing a connection or performing a proper shutdown. 
+Ensure that job_ctx.connect()/job_ctx.shutdown() is called and the job is correctly finalized.
+    15:55:20.018 INFO     orbi-agent         Session already active ù          
+                                             skipping duplicate dispatch for   
+                                             room: orbi-avatar                 
+    15:55:20.024 WARNING  livekit.agents     The job task completed without    
+                                             establishing a connection or      
+                                             performing a proper shutdown.     
+                                             Ensure that                       
+                                             job_ctx.connect()/job_ctx.shutdà  
+                                             is called and the job is          
+                                             correctly finalized.              
+INFO:orbi-agent:Session already active ù skipping duplicate dispatch for room: orbi-avatar
+    15:55:20.045 INFO     orbi-agent         Session already active ù          
+                                             skipping duplicate dispatch for   
+                                             room: orbi-avatar                 
+WARNING:livekit.agents:The job task completed without establishing a connection or performing a proper shutdown. 
+Ensure that job_ctx.connect()/job_ctx.shutdown() is called and the job is correctly finalized.
+    15:55:20.060 WARNING  livekit.agents     The job task completed without    
+                                             establishing a connection or      
+                                             performing a proper shutdown.     
+                                             Ensure that                       
+                                             job_ctx.connect()/job_ctx.shutdà  
+                                             is called and the job is          
+                                             correctly finalized.              
+INFO:orbi-agent:Agent connected to room: orbi-avatar
+    15:55:22.749 INFO     orbi-agent         Agent connected to room:          
+                                             orbi-avatar                       
+    15:55:22.759 INFO     orbi-agent         HTTP bridge listening on          
+                                             http://localhost:5001             
+INFO:orbi-agent:HTTP bridge listening on http://localhost:5001
+DEBUG:livekit.agents:http_session(): creating a new httpclient ctx
+    15:55:45.793 DEBUG    livekit.agents     http_session(): creating a new    
+                                             httpclient ctx                    
+INFO:orbi-agent:Starting Simli avatar with face_id=cace3ef7-a4c4-425d-a8cf-a5358eb0c427
+    15:55:45.799 INFO     orbi-agent         Starting Simli avatar with        
+                                             face_id=cace3ef7-a4c4-425d-a8cfà  
+DEBUG:livekit.plugins.simli:starting avatar session
+    15:55:45.862 DEBUG    livekit.àins.simli starting avatar session  
+INFO:orbi-agent:Simli avatar started ù waiting for simli-avatar-agent to join room
+    15:55:47.962 INFO     orbi-agent         Simli avatar started ù waiting    
+                                             for simli-avatar-agent to join    
+                                             room                              
+INFO:orbi-agent:simli-avatar-agent joined ù starting AgentSession
+    15:55:47.968 INFO     orbi-agent         simli-avatar-agent joined ù       
+                                             starting AgentSession             
+    15:55:47.990 WARNING  livekit.agents     RoomInputOptions and              
+                                             RoomOutputOptions are             
+                                             deprecated, use RoomOptions       
+                                             instead                           
+WARNING:livekit.agents:RoomInputOptions and RoomOutputOptions are deprecated, use RoomOptions instead
+DEBUG:livekit.agents:input stream attached
+    15:55:48.002 DEBUG    livekit.agents     input stream attached  
+                                         {"participant": null, "source": 
+"SOURCE_UNKNOWN", "accepted_sources": ["SOURCE_MICROPHONE"]}
+DEBUG:livekit.agents:waiting for the remote participant
+    15:55:48.046 DEBUG    livekit.agents     waiting for the remote            
+                                             participant                       
+                                         {"identity": "simli-avatar-agent"}
+DEBUG:livekit.agents:remote participant ready
+    15:55:48.076 DEBUG    livekit.agents     remote participant ready  
+                                         {"identity": "simli-avatar-agent"}
+DEBUG:livekit.agents:using audio io: `RoomIO` -> `AgentSession` -> `TranscriptSynchronizer` -> `DataStreamIO`
+    15:55:48.115 DEBUG    livekit.agents     using audio io: `RoomIO` ->       
+                                             `AgentSession` ->                 
+                                             `TranscriptSynchronizer` ->       
+                                             `DataStreamIO`                    
+WARNING:livekit.agents:resume_false_interruption is enabled but audio output does not support pause, it will be ignored
+    15:55:48.156 WARNING  livekit.agents     resume_false_interruption is      
+                                             enabled but audio output does     
+                                             not support pause, it will be     
+                                             ignored                           
+                                         {"audio_output": 
+"TranscriptSynchronizer"}
+DEBUG:livekit.agents:using transcript io: `AgentSession` -> `TranscriptSynchronizer` -> `RoomIO`
+    15:55:48.222 DEBUG    livekit.agents     using transcript io:              
+                                             `AgentSession` ->                 
+                                             `TranscriptSynchronizer` ->       
+                                             `RoomIO`                          
+INFO:orbi-agent:Speaking: It's nice to meet you. How's your day going so far?
+ERROR:livekit.agents:Error in _tts_inference_task
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\tts\tts.py", line 690, 
+in __anext__
+    val = await self._event_aiter.__anext__()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopAsyncIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\utils\log.py", line 17, 
+in async_fn_logs
+    return await fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\voice\generation.py", 
+line 328, in _tts_inference_task
+    pushed_duration += await _tts_node_inference(input_segment, pushed_duration)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\opentelemetry\util\_decorator.py", 
+line 71, in async_wrapper
+    return await func(*args, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\voice\generation.py", 
+line 284, in _tts_node_inference
+    async for audio_frame in tts_node:
+    ...<15 lines>...
+        audio_duration += audio_frame.duration
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\voice\agent.py", line 
+490, in tts_node
+    async for ev in stream:
+        yield ev.frame
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\tts\tts.py", line 693, 
+in __anext__
+    raise exc  # noqa: B904
+    ^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\tts\tts.py", line 433, 
+in _traceable_main_task
+    await self._main_task()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\tts\tts.py", line 479, 
+in _main_task
+    await self._run(output_emitter)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\tts\stream_adapter.py", 
+line 144, in _run
+    await asyncio.gather(*tasks)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\tts\stream_adapter.py", 
+line 131, in _synthesize
+    async with self._tts._wrapped_tts.synthesize(
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        text, conn_options=self._wrapped_tts_conn_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ) as tts_stream:
+    ^
+  File "C:\Users\Dell\Downloads\FYP_Project_new 2 (1)\FYP_Project_new 
+2\FYP_Project_new\chatbot-avatar\livekit_agent\edge_tts_plugin.py", line 40, in synthesize
+    return EdgeTTSStream(
+        tts=self,
+    ...<2 lines>...
+        voice=self._voice,
+    )
+TypeError: Can't instantiate abstract class EdgeTTSStream without an implementation for abstract method '_run'
+    15:59:59.178 INFO     orbi-agent         Speaking: It's nice to meet you.  
+                                             How's your day going so far?      
+    15:59:59.496 ERROR    livekit.agents     Error in _tts_inference_task  
+Traceback (most recent call last):
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\tts\tts.py", line 690, in __anext__
+    val = await self._event_aiter.__anext__()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopAsyncIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\utils\log.py", line 17, in async_fn_logs
+    return await fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\voice\generation.py", line 328, in _tts_inference_task
+    pushed_duration += await _tts_node_inference(input_segment, 
+pushed_duration)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\opente
+lemetry\util\_decorator.py", line 71, in async_wrapper
+    return await func(*args, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\voice\generation.py", line 284, in _tts_node_inference
+    async for audio_frame in tts_node:
+    ...<15 lines>...
+        audio_duration += audio_frame.duration
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\voice\agent.py", line 490, in tts_node
+    async for ev in stream:
+        yield ev.frame
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\tts\tts.py", line 693, in __anext__
+    raise exc  # noqa: B904
+    ^^^^^^^^^
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\tts\tts.py", line 433, in _traceable_main_task
+    await self._main_task()
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\tts\tts.py", line 479, in _main_task
+    await self._run(output_emitter)
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\tts\stream_adapter.py", line 144, in _run
+    await asyncio.gather(*tasks)
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\tts\stream_adapter.py", line 131, in _synthesize
+    async with self._tts._wrapped_tts.synthesize(
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        text, conn_options=self._wrapped_tts_conn_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ) as tts_stream:
+    ^
+  File "C:\Users\Dell\Downloads\FYP_Project_new 2 (1)\FYP_Project_new 
+2\FYP_Project_new\chatbot-avatar\livekit_agent\edge_tts_plugin.py", line 40, in
+synthesize
+    return EdgeTTSStream(
+        tts=self,
+    ...<2 lines>...
+        voice=self._voice,
+    )
+TypeError: Can't instantiate abstract class EdgeTTSStream without an 
+implementation for abstract method '_run'
+ERROR:livekit.agents:Error in _tts_task
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\tts\tts.py", line 690, 
+in __anext__
+    val = await self._event_aiter.__anext__()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopAsyncIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\utils\log.py", line 17, 
+in async_fn_logs
+    return await fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\voice\agent_activity.py", line 
+2127, in _tts_task
+    await self._tts_task_impl(
+    ...<5 lines>...
+    )
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\voice\agent_activity.py", line 
+2271, in _tts_task_impl
+    raise exc
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\utils\log.py", line 17, 
+in async_fn_logs
+    return await fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\voice\generation.py", 
+line 328, in _tts_inference_task
+    pushed_duration += await _tts_node_inference(input_segment, pushed_duration)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\opentelemetry\util\_decorator.py", 
+line 71, in async_wrapper
+    return await func(*args, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\voice\generation.py", 
+line 284, in _tts_node_inference
+    async for audio_frame in tts_node:
+    ...<15 lines>...
+        audio_duration += audio_frame.duration
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\voice\agent.py", line 
+490, in tts_node
+    async for ev in stream:
+        yield ev.frame
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\tts\tts.py", line 693, 
+in __anext__
+    raise exc  # noqa: B904
+    ^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\tts\tts.py", line 433, 
+in _traceable_main_task
+    await self._main_task()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\tts\tts.py", line 479, 
+in _main_task
+    await self._run(output_emitter)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\tts\stream_adapter.py", 
+line 144, in _run
+    await asyncio.gather(*tasks)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\tts\stream_adapter.py", 
+line 131, in _synthesize
+    async with self._tts._wrapped_tts.synthesize(
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        text, conn_options=self._wrapped_tts_conn_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ) as tts_stream:
+    ^
+  File "C:\Users\Dell\Downloads\FYP_Project_new 2 (1)\FYP_Project_new 
+2\FYP_Project_new\chatbot-avatar\livekit_agent\edge_tts_plugin.py", line 40, in synthesize
+    return EdgeTTSStream(
+        tts=self,
+    ...<2 lines>...
+        voice=self._voice,
+    )
+TypeError: Can't instantiate abstract class EdgeTTSStream without an implementation for abstract method '_run'
+    16:00:00.299 ERROR    livekit.agents     Error in _tts_task  
+Traceback (most recent call last):
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\tts\tts.py", line 690, in __anext__
+    val = await self._event_aiter.__anext__()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopAsyncIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\utils\log.py", line 17, in async_fn_logs
+    return await fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\voice\agent_activity.py", line 2127, in _tts_task
+    await self._tts_task_impl(
+    ...<5 lines>...
+    )
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\voice\agent_activity.py", line 2271, in _tts_task_impl
+    raise exc
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\utils\log.py", line 17, in async_fn_logs
+    return await fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\voice\generation.py", line 328, in _tts_inference_task
+    pushed_duration += await _tts_node_inference(input_segment, 
+pushed_duration)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\opente
+lemetry\util\_decorator.py", line 71, in async_wrapper
+    return await func(*args, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\voice\generation.py", line 284, in _tts_node_inference
+    async for audio_frame in tts_node:
+    ...<15 lines>...
+        audio_duration += audio_frame.duration
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\voice\agent.py", line 490, in tts_node
+    async for ev in stream:
+        yield ev.frame
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\tts\tts.py", line 693, in __anext__
+    raise exc  # noqa: B904
+    ^^^^^^^^^
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\tts\tts.py", line 433, in _traceable_main_task
+    await self._main_task()
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\tts\tts.py", line 479, in _main_task
+    await self._run(output_emitter)
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\tts\stream_adapter.py", line 144, in _run
+    await asyncio.gather(*tasks)
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\tts\stream_adapter.py", line 131, in _synthesize
+    async with self._tts._wrapped_tts.synthesize(
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        text, conn_options=self._wrapped_tts_conn_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ) as tts_stream:
+    ^
+  File "C:\Users\Dell\Downloads\FYP_Project_new 2 (1)\FYP_Project_new 
+2\FYP_Project_new\chatbot-avatar\livekit_agent\edge_tts_plugin.py", line 40, in
+synthesize
+    return EdgeTTSStream(
+        tts=self,
+    ...<2 lines>...
+        voice=self._voice,
+    )
+TypeError: Can't instantiate abstract class EdgeTTSStream without an 
+implementation for abstract method '_run'
+INFO:orbi-agent:Speaking: Hi again. Is there something I can help you with?
+    16:00:11.209 INFO     orbi-agent         Speaking: Hi again. Is there      
+                                             something I can help you with?    
+ERROR:livekit.agents:Error in _tts_inference_task
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\tts\tts.py", line 690, 
+in __anext__
+    val = await self._event_aiter.__anext__()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopAsyncIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\utils\log.py", line 17, 
+in async_fn_logs
+    return await fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\voice\generation.py", 
+line 328, in _tts_inference_task
+    pushed_duration += await _tts_node_inference(input_segment, pushed_duration)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\opentelemetry\util\_decorator.py", 
+line 71, in async_wrapper
+    return await func(*args, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\voice\generation.py", 
+line 284, in _tts_node_inference
+    async for audio_frame in tts_node:
+    ...<15 lines>...
+        audio_duration += audio_frame.duration
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\voice\agent.py", line 
+490, in tts_node
+    async for ev in stream:
+        yield ev.frame
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\tts\tts.py", line 693, 
+in __anext__
+    raise exc  # noqa: B904
+    ^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\tts\tts.py", line 433, 
+in _traceable_main_task
+    await self._main_task()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\tts\tts.py", line 479, 
+in _main_task
+    await self._run(output_emitter)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\tts\stream_adapter.py", 
+line 144, in _run
+    await asyncio.gather(*tasks)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\tts\stream_adapter.py", 
+line 131, in _synthesize
+    async with self._tts._wrapped_tts.synthesize(
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        text, conn_options=self._wrapped_tts_conn_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ) as tts_stream:
+    ^
+  File "C:\Users\Dell\Downloads\FYP_Project_new 2 (1)\FYP_Project_new 
+2\FYP_Project_new\chatbot-avatar\livekit_agent\edge_tts_plugin.py", line 40, in synthesize
+    return EdgeTTSStream(
+        tts=self,
+    ...<2 lines>...
+        voice=self._voice,
+    )
+TypeError: Can't instantiate abstract class EdgeTTSStream without an implementation for abstract method '_run'
+    16:00:11.315 ERROR    livekit.agents     Error in _tts_inference_task  
+Traceback (most recent call last):
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\tts\tts.py", line 690, in __anext__
+    val = await self._event_aiter.__anext__()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopAsyncIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\utils\log.py", line 17, in async_fn_logs
+    return await fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\voice\generation.py", line 328, in _tts_inference_task
+    pushed_duration += await _tts_node_inference(input_segment, 
+pushed_duration)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\opente
+lemetry\util\_decorator.py", line 71, in async_wrapper
+    return await func(*args, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\voice\generation.py", line 284, in _tts_node_inference
+    async for audio_frame in tts_node:
+    ...<15 lines>...
+        audio_duration += audio_frame.duration
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\voice\agent.py", line 490, in tts_node
+    async for ev in stream:
+        yield ev.frame
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\tts\tts.py", line 693, in __anext__
+    raise exc  # noqa: B904
+    ^^^^^^^^^
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\tts\tts.py", line 433, in _traceable_main_task
+    await self._main_task()
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\tts\tts.py", line 479, in _main_task
+    await self._run(output_emitter)
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\tts\stream_adapter.py", line 144, in _run
+    await asyncio.gather(*tasks)
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\tts\stream_adapter.py", line 131, in _synthesize
+    async with self._tts._wrapped_tts.synthesize(
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        text, conn_options=self._wrapped_tts_conn_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ) as tts_stream:
+    ^
+  File "C:\Users\Dell\Downloads\FYP_Project_new 2 (1)\FYP_Project_new 
+2\FYP_Project_new\chatbot-avatar\livekit_agent\edge_tts_plugin.py", line 40, in
+synthesize
+    return EdgeTTSStream(
+        tts=self,
+    ...<2 lines>...
+        voice=self._voice,
+    )
+TypeError: Can't instantiate abstract class EdgeTTSStream without an 
+implementation for abstract method '_run'
+ERROR:livekit.agents:Error in _tts_task
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\tts\tts.py", line 690, 
+in __anext__
+    val = await self._event_aiter.__anext__()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopAsyncIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\utils\log.py", line 17, 
+in async_fn_logs
+    return await fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\voice\agent_activity.py", line 
+2127, in _tts_task
+    await self._tts_task_impl(
+    ...<5 lines>...
+    )
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\voice\agent_activity.py", line 
+2271, in _tts_task_impl
+    raise exc
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\utils\log.py", line 17, 
+in async_fn_logs
+    return await fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\voice\generation.py", 
+line 328, in _tts_inference_task
+    pushed_duration += await _tts_node_inference(input_segment, pushed_duration)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\opentelemetry\util\_decorator.py", 
+line 71, in async_wrapper
+    return await func(*args, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\voice\generation.py", 
+line 284, in _tts_node_inference
+    async for audio_frame in tts_node:
+    ...<15 lines>...
+        audio_duration += audio_frame.duration
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\voice\agent.py", line 
+490, in tts_node
+    async for ev in stream:
+        yield ev.frame
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\tts\tts.py", line 693, 
+in __anext__
+    raise exc  # noqa: B904
+    ^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\tts\tts.py", line 433, 
+in _traceable_main_task
+    await self._main_task()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\tts\tts.py", line 479, 
+in _main_task
+    await self._run(output_emitter)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\tts\stream_adapter.py", 
+line 144, in _run
+    await asyncio.gather(*tasks)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\tts\stream_adapter.py", 
+line 131, in _synthesize
+    async with self._tts._wrapped_tts.synthesize(
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        text, conn_options=self._wrapped_tts_conn_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ) as tts_stream:
+    ^
+  File "C:\Users\Dell\Downloads\FYP_Project_new 2 (1)\FYP_Project_new 
+2\FYP_Project_new\chatbot-avatar\livekit_agent\edge_tts_plugin.py", line 40, in synthesize
+    return EdgeTTSStream(
+        tts=self,
+    ...<2 lines>...
+        voice=self._voice,
+    )
+TypeError: Can't instantiate abstract class EdgeTTSStream without an implementation for abstract method '_run'
+    16:00:11.543 ERROR    livekit.agents     Error in _tts_task  
+Traceback (most recent call last):
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\tts\tts.py", line 690, in __anext__
+    val = await self._event_aiter.__anext__()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopAsyncIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\utils\log.py", line 17, in async_fn_logs
+    return await fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\voice\agent_activity.py", line 2127, in _tts_task
+    await self._tts_task_impl(
+    ...<5 lines>...
+    )
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\voice\agent_activity.py", line 2271, in _tts_task_impl
+    raise exc
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\utils\log.py", line 17, in async_fn_logs
+    return await fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\voice\generation.py", line 328, in _tts_inference_task
+    pushed_duration += await _tts_node_inference(input_segment, 
+pushed_duration)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\opente
+lemetry\util\_decorator.py", line 71, in async_wrapper
+    return await func(*args, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\voice\generation.py", line 284, in _tts_node_inference
+    async for audio_frame in tts_node:
+    ...<15 lines>...
+        audio_duration += audio_frame.duration
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\voice\agent.py", line 490, in tts_node
+    async for ev in stream:
+        yield ev.frame
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\tts\tts.py", line 693, in __anext__
+    raise exc  # noqa: B904
+    ^^^^^^^^^
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\tts\tts.py", line 433, in _traceable_main_task
+    await self._main_task()
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\tts\tts.py", line 479, in _main_task
+    await self._run(output_emitter)
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\tts\stream_adapter.py", line 144, in _run
+    await asyncio.gather(*tasks)
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\tts\stream_adapter.py", line 131, in _synthesize
+    async with self._tts._wrapped_tts.synthesize(
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        text, conn_options=self._wrapped_tts_conn_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ) as tts_stream:
+    ^
+  File "C:\Users\Dell\Downloads\FYP_Project_new 2 (1)\FYP_Project_new 
+2\FYP_Project_new\chatbot-avatar\livekit_agent\edge_tts_plugin.py", line 40, in
+synthesize
+    return EdgeTTSStream(
+        tts=self,
+    ...<2 lines>...
+        voice=self._voice,
+    )
+TypeError: Can't instantiate abstract class EdgeTTSStream without an 
+implementation for abstract method '_run'
+INFO:orbi-agent:Speaking: Hi there, I am ORBI your AI assistant!
+    16:01:04.649 INFO     orbi-agent         Speaking: Hi there, I am ORBI     
+                                             your AI assistant!                
+ERROR:livekit.agents:Error in _tts_inference_task
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\tts\tts.py", line 690, 
+in __anext__
+    val = await self._event_aiter.__anext__()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopAsyncIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\utils\log.py", line 17, 
+in async_fn_logs
+    return await fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\voice\generation.py", 
+line 328, in _tts_inference_task
+    pushed_duration += await _tts_node_inference(input_segment, pushed_duration)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\opentelemetry\util\_decorator.py", 
+line 71, in async_wrapper
+    return await func(*args, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\voice\generation.py", 
+line 284, in _tts_node_inference
+    async for audio_frame in tts_node:
+    ...<15 lines>...
+        audio_duration += audio_frame.duration
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\voice\agent.py", line 
+490, in tts_node
+    async for ev in stream:
+        yield ev.frame
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\tts\tts.py", line 693, 
+in __anext__
+    raise exc  # noqa: B904
+    ^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\tts\tts.py", line 433, 
+in _traceable_main_task
+    await self._main_task()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\tts\tts.py", line 479, 
+in _main_task
+    await self._run(output_emitter)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\tts\stream_adapter.py", 
+line 144, in _run
+    await asyncio.gather(*tasks)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\tts\stream_adapter.py", 
+line 131, in _synthesize
+    async with self._tts._wrapped_tts.synthesize(
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        text, conn_options=self._wrapped_tts_conn_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ) as tts_stream:
+    ^
+  File "C:\Users\Dell\Downloads\FYP_Project_new 2 (1)\FYP_Project_new 
+2\FYP_Project_new\chatbot-avatar\livekit_agent\edge_tts_plugin.py", line 40, in synthesize
+    return EdgeTTSStream(
+        tts=self,
+    ...<2 lines>...
+        voice=self._voice,
+    )
+TypeError: Can't instantiate abstract class EdgeTTSStream without an implementation for abstract method '_run'
+    16:01:04.673 ERROR    livekit.agents     Error in _tts_inference_task  
+Traceback (most recent call last):
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\tts\tts.py", line 690, in __anext__
+    val = await self._event_aiter.__anext__()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopAsyncIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\utils\log.py", line 17, in async_fn_logs
+    return await fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\voice\generation.py", line 328, in _tts_inference_task
+    pushed_duration += await _tts_node_inference(input_segment, 
+pushed_duration)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\opente
+lemetry\util\_decorator.py", line 71, in async_wrapper
+    return await func(*args, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\voice\generation.py", line 284, in _tts_node_inference
+    async for audio_frame in tts_node:
+    ...<15 lines>...
+        audio_duration += audio_frame.duration
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\voice\agent.py", line 490, in tts_node
+    async for ev in stream:
+        yield ev.frame
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\tts\tts.py", line 693, in __anext__
+    raise exc  # noqa: B904
+    ^^^^^^^^^
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\tts\tts.py", line 433, in _traceable_main_task
+    await self._main_task()
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\tts\tts.py", line 479, in _main_task
+    await self._run(output_emitter)
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\tts\stream_adapter.py", line 144, in _run
+    await asyncio.gather(*tasks)
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\tts\stream_adapter.py", line 131, in _synthesize
+    async with self._tts._wrapped_tts.synthesize(
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        text, conn_options=self._wrapped_tts_conn_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ) as tts_stream:
+    ^
+  File "C:\Users\Dell\Downloads\FYP_Project_new 2 (1)\FYP_Project_new 
+2\FYP_Project_new\chatbot-avatar\livekit_agent\edge_tts_plugin.py", line 40, in
+synthesize
+    return EdgeTTSStream(
+        tts=self,
+    ...<2 lines>...
+        voice=self._voice,
+    )
+TypeError: Can't instantiate abstract class EdgeTTSStream without an 
+implementation for abstract method '_run'
+ERROR:livekit.agents:Error in _tts_task
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\tts\tts.py", line 690, 
+in __anext__
+    val = await self._event_aiter.__anext__()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopAsyncIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\utils\log.py", line 17, 
+in async_fn_logs
+    return await fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\voice\agent_activity.py", line 
+2127, in _tts_task
+    await self._tts_task_impl(
+    ...<5 lines>...
+    )
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\voice\agent_activity.py", line 
+2271, in _tts_task_impl
+    raise exc
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\utils\log.py", line 17, 
+in async_fn_logs
+    return await fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\voice\generation.py", 
+line 328, in _tts_inference_task
+    pushed_duration += await _tts_node_inference(input_segment, pushed_duration)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\opentelemetry\util\_decorator.py", 
+line 71, in async_wrapper
+    return await func(*args, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\voice\generation.py", 
+line 284, in _tts_node_inference
+    async for audio_frame in tts_node:
+    ...<15 lines>...
+        audio_duration += audio_frame.duration
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\voice\agent.py", line 
+490, in tts_node
+    async for ev in stream:
+        yield ev.frame
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\tts\tts.py", line 693, 
+in __anext__
+    raise exc  # noqa: B904
+    ^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\tts\tts.py", line 433, 
+in _traceable_main_task
+    await self._main_task()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\tts\tts.py", line 479, 
+in _main_task
+    await self._run(output_emitter)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\tts\stream_adapter.py", 
+line 144, in _run
+    await asyncio.gather(*tasks)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\tts\stream_adapter.py", 
+line 131, in _synthesize
+    async with self._tts._wrapped_tts.synthesize(
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        text, conn_options=self._wrapped_tts_conn_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ) as tts_stream:
+    ^
+  File "C:\Users\Dell\Downloads\FYP_Project_new 2 (1)\FYP_Project_new 
+2\FYP_Project_new\chatbot-avatar\livekit_agent\edge_tts_plugin.py", line 40, in synthesize
+    return EdgeTTSStream(
+        tts=self,
+    ...<2 lines>...
+        voice=self._voice,
+    )
+TypeError: Can't instantiate abstract class EdgeTTSStream without an implementation for abstract method '_run'
+    16:01:04.697 ERROR    livekit.agents     Error in _tts_task  
+Traceback (most recent call last):
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\tts\tts.py", line 690, in __anext__
+    val = await self._event_aiter.__anext__()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopAsyncIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\utils\log.py", line 17, in async_fn_logs
+    return await fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\voice\agent_activity.py", line 2127, in _tts_task
+    await self._tts_task_impl(
+    ...<5 lines>...
+    )
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\voice\agent_activity.py", line 2271, in _tts_task_impl
+    raise exc
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\utils\log.py", line 17, in async_fn_logs
+    return await fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\voice\generation.py", line 328, in _tts_inference_task
+    pushed_duration += await _tts_node_inference(input_segment, 
+pushed_duration)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\opente
+lemetry\util\_decorator.py", line 71, in async_wrapper
+    return await func(*args, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\voice\generation.py", line 284, in _tts_node_inference
+    async for audio_frame in tts_node:
+    ...<15 lines>...
+        audio_duration += audio_frame.duration
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\voice\agent.py", line 490, in tts_node
+    async for ev in stream:
+        yield ev.frame
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\tts\tts.py", line 693, in __anext__
+    raise exc  # noqa: B904
+    ^^^^^^^^^
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\tts\tts.py", line 433, in _traceable_main_task
+    await self._main_task()
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\tts\tts.py", line 479, in _main_task
+    await self._run(output_emitter)
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\tts\stream_adapter.py", line 144, in _run
+    await asyncio.gather(*tasks)
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\tts\stream_adapter.py", line 131, in _synthesize
+    async with self._tts._wrapped_tts.synthesize(
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        text, conn_options=self._wrapped_tts_conn_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ) as tts_stream:
+    ^
+  File "C:\Users\Dell\Downloads\FYP_Project_new 2 (1)\FYP_Project_new 
+2\FYP_Project_new\chatbot-avatar\livekit_agent\edge_tts_plugin.py", line 40, in
+synthesize
+    return EdgeTTSStream(
+        tts=self,
+    ...<2 lines>...
+        voice=self._voice,
+    )
+TypeError: Can't instantiate abstract class EdgeTTSStream without an 
+implementation for abstract method '_run'
+INFO:livekit:livekit_ffi::server:153:livekit_ffi::server - initializing ffi server v0.12.53
+INFO:livekit:livekit_ffi::cabi:50:livekit_ffi::cabi - initializing ffi server v0.12.53
+DEBUG:asyncio:Using proactor: IocpProactor
+    16:07:35.390 DEBUG    asyncio            Using proactor: IocpProactor  
+INFO:livekit.agents:starting worker
+    16:07:35.410 INFO     livekit.agents     starting worker  
+                                         {"version": "1.5.8", "rtc-version": 
+"1.1.7"}
+INFO:livekit.agents:plugin registered
+    16:07:35.413 INFO     livekit.agents     plugin registered  
+                                         {"plugin": "livekit.plugins.openai", 
+"version": "1.5.8"}
+INFO:livekit.agents:plugin registered
+    16:07:35.415 INFO     livekit.agents     plugin registered  
+                                         {"plugin": "livekit.plugins.groq", 
+"version": "1.5.8"}
+INFO:livekit.agents:plugin registered
+    16:07:35.417 INFO     livekit.agents     plugin registered  
+                                         {"plugin": "livekit.plugins.silero", 
+"version": "1.5.8"}
+INFO:livekit.agents:plugin registered
+    16:07:35.419 INFO     livekit.agents     plugin registered  
+                                         {"plugin": "livekit.plugins.simli", 
+"version": "1.5.8"}
+INFO:livekit.agents:HTTP server listening on :61637
+    16:07:35.424 INFO     livekit.agents     HTTP server listening on :61637  
+ERROR:livekit.agents:Error in _read_ipc_task
+Traceback (most recent call last):
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\utils\aio\duplex_unix.py", 
+line 35, in recv_bytes
+    len_bytes = await self._reader.readexactly(4)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\asyncio\streams.py", line 767, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 4 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\utils\log.py", line 17, 
+in async_fn_logs
+    return await fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\cli\watcher.py", line 
+136, in _read_ipc_task
+    msg = await channel.arecv_message(self._pch, proto.IPC_MESSAGES)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\ipc\channel.py", line 
+47, in arecv_message
+    return _read_message(await dplx.recv_bytes(), messages)
+                         ^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\livekit\agents\utils\aio\duplex_unix.py", 
+line 43, in recv_bytes
+    raise DuplexClosed() from e
+livekit.agents.utils.aio.duplex_unix.DuplexClosed
+    16:07:35.423 ERROR    livekit.agents     Error in _read_ipc_task  
+Traceback (most recent call last):
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\utils\aio\duplex_unix.py", line 35, in recv_bytes
+    len_bytes = await self._reader.readexactly(4)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\asyncio\streams.py",
+line 767, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 4 expected 
+bytes
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\utils\log.py", line 17, in async_fn_logs
+    return await fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\cli\watcher.py", line 136, in _read_ipc_task
+    msg = await channel.arecv_message(self._pch, proto.IPC_MESSAGES)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\ipc\channel.py", line 47, in arecv_message
+    return _read_message(await dplx.recv_bytes(), messages)
+                         ^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\liveki
+t\agents\utils\aio\duplex_unix.py", line 43, in recv_bytes
+    raise DuplexClosed() from e
+livekit.agents.utils.aio.duplex_unix.DuplexClosed
+INFO:livekit.agents:registered worker
+    16:07:36.444 INFO     livekit.agents     registered worker  
+                                         {"agent_name": "orbi", "id": 
+"AW_iEwVrEoXTukQ", "url": "wss://orbi-pz7jflb7.livekit.cloud", "region": "India
+West", "protocol": 17}
+INFO:livekit.agents:received job request
+    16:07:47.409 INFO     livekit.agents     received job request  
+                                         {"job_id": "AJ_vE2cR76wknrv", 
+"dispatch_id": "AD_TxyznJk7wXYk", "room": "orbi-avatar", "room_id": 
+"RM_5ZLRDjg4xxe2", "agent_name": "orbi", "resuming": false, "enable_recording":
+false}
+DEBUG:livekit.agents:received assignment
+    16:07:47.575 DEBUG    livekit.agents     received assignment  
+                                         {"agent_name": "orbi", "room_id": 
+"RM_5ZLRDjg4xxe2", "room": "orbi-avatar", "job_id": "AJ_vE2cR76wknrv", 
+"dispatch_id": "AD_TxyznJk7wXYk", "enable_recording": false}
+WARNING:livekit.agents:no warmed process available for job, waiting for one to be created
+    16:07:47.587 WARNING  livekit.agents     no warmed process available for   
+                                             job, waiting for one to be        
+                                             created                           
+                                         {"job_id": "AJ_vE2cR76wknrv"}
+INFO:livekit.agents:initializing job runner
+    16:07:47.609 INFO     livekit.agents     initializing job runner  
+                                         {"tid": 3960}
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:livekit.agents:job runner initialized
+    16:07:47.619 DEBUG    asyncio            Using proactor: IocpProactor  
+    16:07:47.621 INFO     livekit.agents     job runner initialized  
+                                         {"tid": 3960, "elapsed_time": 0.0}
+INFO:orbi-agent:Agent connected to room: orbi-avatar
+    16:07:49.670 INFO     orbi-agent         Agent connected to room:          
+                                             orbi-avatar                       
+INFO:orbi-agent:HTTP bridge listening on http://localhost:5001
+    16:07:49.695 INFO     orbi-agent         HTTP bridge listening on          
+                                             http://localhost:5001             
+DEBUG:livekit.agents:http_session(): creating a new httpclient ctx
+    16:07:52.424 DEBUG    livekit.agents     http_session(): creating a new    
+                                             httpclient ctx                    
+INFO:orbi-agent:Starting Simli avatar with face_id=cace3ef7-a4c4-425d-a8cf-a5358eb0c427
+    16:07:52.430 INFO     orbi-agent         Starting Simli avatar with        
+                                             face_id=cace3ef7-a4c4-425d-a8cfà  
+DEBUG:livekit.plugins.simli:starting avatar session
+    16:07:52.438 DEBUG    livekit.àins.simli starting avatar session  
+INFO:orbi-agent:Simli avatar started ù waiting for simli-avatar-agent to join room
+    16:07:54.595 INFO     orbi-agent         Simli avatar started ù waiting    
+                                             for simli-avatar-agent to join    
+                                             room                              
+INFO:orbi-agent:simli-avatar-agent joined ù starting AgentSession
+    16:07:54.599 INFO     orbi-agent         simli-avatar-agent joined ù       
+                                             starting AgentSession             
+WARNING:livekit.agents:RoomInputOptions and RoomOutputOptions are deprecated, use RoomOptions instead
+    16:07:54.604 WARNING  livekit.agents     RoomInputOptions and              
+                                             RoomOutputOptions are             
+                                             deprecated, use RoomOptions       
+                                             instead                           
+DEBUG:livekit.agents:input stream attached
+    16:07:54.611 DEBUG    livekit.agents     input stream attached  
+                                         {"participant": null, "source": 
+"SOURCE_UNKNOWN", "accepted_sources": ["SOURCE_MICROPHONE"]}
+DEBUG:livekit.agents:waiting for the remote participant
+    16:07:54.627 DEBUG    livekit.agents     waiting for the remote            
+                                             participant                       
+                                         {"identity": "simli-avatar-agent"}
+DEBUG:livekit.agents:using audio io: `RoomIO` -> `AgentSession` -> `TranscriptSynchronizer` -> `DataStreamIO`
+    16:07:54.639 DEBUG    livekit.agents     using audio io: `RoomIO` ->       
+                                             `AgentSession` ->                 
+                                             `TranscriptSynchronizer` ->       
+                                             `DataStreamIO`                    
+WARNING:livekit.agents:resume_false_interruption is enabled but audio output does not support pause, it will be ignored
+    16:07:54.646 WARNING  livekit.agents     resume_false_interruption is      
+                                             enabled but audio output does     
+                                             not support pause, it will be     
+                                             ignored                           
+                                         {"audio_output": 
+"TranscriptSynchronizer"}
+DEBUG:livekit.agents:using transcript io: `AgentSession` -> `TranscriptSynchronizer` -> `RoomIO`
+    16:07:54.652 DEBUG    livekit.agents     using transcript io:              
+                                             `AgentSession` ->                 
+                                             `TranscriptSynchronizer` ->       
+                                             `RoomIO`                          
+DEBUG:livekit.agents:remote participant ready
+    16:07:54.763 DEBUG    livekit.agents     remote participant ready  
+                                         {"identity": "simli-avatar-agent"}
+INFO:orbi-agent:Speaking: Hello! I am ORBI, your AI assistant. Testing lip sync now.
+    16:12:05.256 INFO     orbi-agent         Speaking: Hello! I am ORBI, your  
+                                             AI assistant. Testing lip sync    
+                                             now.                              
+DEBUG:livekit.agents:aec warmup active, disabling interruptions for 3.00s
+    16:12:06.725 DEBUG    livekit.agents     aec warmup active, disabling      
+                                             interruptions for 3.00s           
+DEBUG:livekit.agents:aec warmup expired, re-enabling interruptions
+    16:12:09.730 DEBUG    livekit.agents     aec warmup expired, re-enabling   
+                                             interruptions                     
+INFO:livekit.agents:playback finished event received
+    16:12:14.508 INFO     livekit.agents     playback finished event received  
+                                         {"caller_identity": 
+"simli-avatar-agent"}
+INFO:livekit.agents:received job request
+    16:14:30.125 INFO     livekit.agents     received job request  
+                                         {"job_id": "AJ_z9Mhziwtj8yc", 
+"dispatch_id": "AD_zVyBPcefYmWr", "room": "orbi-avatar", "room_id": 
+"RM_5ZLRDjg4xxe2", "agent_name": "orbi", "resuming": false, "enable_recording":
+false}
+DEBUG:livekit.agents:received assignment
+    16:14:30.285 DEBUG    livekit.agents     received assignment  
+                                         {"agent_name": "orbi", "room_id": 
+"RM_5ZLRDjg4xxe2", "room": "orbi-avatar", "job_id": "AJ_z9Mhziwtj8yc", 
+"dispatch_id": "AD_zVyBPcefYmWr", "enable_recording": false}
+WARNING:livekit.agents:no warmed process available for job, waiting for one to be created
+    16:14:30.292 WARNING  livekit.agents     no warmed process available for   
+                                             job, waiting for one to be        
+                                             created                           
+                                         {"job_id": "AJ_z9Mhziwtj8yc"}
+INFO:livekit.agents:initializing job runner
+    16:14:30.302 INFO     livekit.agents     initializing job runner  
+                                         {"tid": 10396}
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:livekit.agents:job runner initialized
+    16:14:30.308 DEBUG    asyncio            Using proactor: IocpProactor  
+                 INFO     livekit.agents     job runner initialized  
+                                         {"tid": 10396, "elapsed_time": 0.0}
+INFO:orbi-agent:Session already active ù skipping duplicate dispatch for room: orbi-avatar
+    16:14:30.324 INFO     orbi-agent         Session already active ù          
+                                             skipping duplicate dispatch for   
+                                             room: orbi-avatar                 
+WARNING:livekit.agents:The job task completed without establishing a connection or performing a proper shutdown. 
+Ensure that job_ctx.connect()/job_ctx.shutdown() is called and the job is correctly finalized.
+    16:14:30.329 WARNING  livekit.agents     The job task completed without    
+                                             establishing a connection or      
+                                             performing a proper shutdown.     
+                                             Ensure that                       
+                                             job_ctx.connect()/job_ctx.shutdà  
+                                             is called and the job is          
+                                             correctly finalized.              
+INFO:orbi-agent:Speaking: Hi, how's your day going so far?
+    16:15:15.997 INFO     orbi-agent         Speaking: Hi, how's your day      
+                                             going so far?                     
+INFO:livekit.agents:playback finished event received
+    16:15:29.172 INFO     livekit.agents     playback finished event received  
+                                         {"caller_identity": 
+"simli-avatar-agent"}
+INFO:orbi-agent:Speaking: I'm doing great, thanks for asking.
+    16:15:45.521 INFO     orbi-agent         Speaking: I'm doing great,        
+                                             thanks for asking.                
+INFO:livekit.agents:playback finished event received
+    16:15:50.479 INFO     livekit.agents     playback finished event received  
+                                         {"caller_identity": 
+"simli-avatar-agent"}

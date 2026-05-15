@@ -1,0 +1,11 @@
+Place your portrait image here as: avatar.jpg
+
+The image shown in the chat (the portrait with dark hair and turtleneck) should be saved to:
+  chatbot-avatar/public/avatar.jpg
+
+Supported formats: .jpg, .jpeg, .png, .webp
+Recommended size: at least 420×420 px, square crop works best.
+
+After placing the image, run:
+  npm install
+  npm start

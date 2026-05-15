@@ -1,0 +1,137 @@
+.avatar-container {
+  position: relative;
+  width: 320px;
+  height: 360px;
+  border-radius: 20px;
+  overflow: hidden;
+  background: #0d0d1a;
+  box-shadow: 0 0 40px rgba(108, 99, 255, 0.4), 0 0 80px rgba(0, 217, 255, 0.15);
+  flex-shrink: 0;
+  /* Children stack via position:absolute */
+  isolation: isolate;
+}
+
+.avatar-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  transition: opacity 0.4s;
+}
+
+.avatar-video.hidden {
+  opacity: 0;
+  position: absolute;
+  top: 0; left: 0;
+}
+
+.avatar-fallback {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  filter: brightness(0.85);
+  transition: filter 0.3s, box-shadow 0.3s;
+}
+
+.avatar-fallback.avatar-speaking {
+  filter: brightness(1.05);
+  animation: speakGlow 0.8s ease-in-out infinite alternate;
+}
+
+/* Thumbnail speaking animation — shows while TTS plays before D-ID video kicks in */
+.avatar-thumbnail-speaking {
+  animation: thumbnailSpeak 0.7s ease-in-out infinite alternate;
+}
+
+@keyframes thumbnailSpeak {
+  from {
+    filter: brightness(0.9);
+    box-shadow: 0 0 0 0 rgba(0, 217, 255, 0);
+  }
+  to {
+    filter: brightness(1.08);
+    box-shadow: 0 0 25px rgba(0, 217, 255, 0.5), 0 0 50px rgba(108, 99, 255, 0.25);
+  }
+}
+
+@keyframes speakGlow {
+  from { box-shadow: 0 0 0px rgba(0, 217, 255, 0); }
+  to   { box-shadow: 0 0 30px rgba(0, 217, 255, 0.6), 0 0 60px rgba(108, 99, 255, 0.3); }
+}
+
+.avatar-loading {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(10, 10, 26, 0.7);
+  z-index: 2;
+  gap: 12px;
+  color: rgba(255,255,255,0.7);
+  font-size: 14px;
+}
+
+.avatar-spinner {
+  width: 36px;
+  height: 36px;
+  border: 3px solid rgba(108, 99, 255, 0.3);
+  border-top-color: #6c63ff;
+  border-radius: 50%;
+  animation: spin 0.9s linear infinite;
+}
+
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.avatar-status {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 3;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 11px;
+  font-weight: 600;
+  backdrop-filter: blur(8px);
+  background: rgba(0,0,0,0.5);
+  color: white;
+}
+
+.avatar-status--ready    { border: 1px solid #4ade80; }
+.avatar-status--speaking { border: 1px solid #00d9ff; animation: pulse 1s ease-in-out infinite; }
+.avatar-status--error    { border: 1px solid #f87171; }
+.avatar-status--connecting { border: 1px solid #facc15; }
+.avatar-status--idle     { border: 1px solid rgba(255,255,255,0.2); }
+
+@keyframes pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(0, 217, 255, 0.4); }
+  50%       { box-shadow: 0 0 0 6px rgba(0, 217, 255, 0); }
+}
+
+.avatar-error {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(10, 10, 26, 0.85);
+  z-index: 2;
+  gap: 12px;
+  color: #f87171;
+  font-size: 13px;
+  text-align: center;
+  padding: 16px;
+}
+
+.avatar-error button {
+  padding: 8px 20px;
+  background: #6c63ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 13px;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI Chatbot Avatar</title>
+    <!-- Suppress cross-origin "Script error." before webpack overlay registers -->
+    <script>
+      window.onerror = function(msg) {
+        if (msg === 'Script error.') return true;
+      };
+    </script>
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      body { background: #0f0f1a; font-family: 'Segoe UI', sans-serif; }
+    </style>
+    <!-- Lottie web component for avatar loading animation -->
+    <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.9.10/dist/dotlottie-wc.js" type="module"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

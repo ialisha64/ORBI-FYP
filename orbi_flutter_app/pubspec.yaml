@@ -1,0 +1,69 @@
+name: orbi_flutter_app
+description: 3D Human-Like Virtual Assistant System
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: '^3.7.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Speech
+  speech_to_text: ^7.3.0
+
+  # 3D Model Rendering
+  model_viewer_plus: ^1.7.0
+  flutter_cube: ^0.1.1
+
+  # AI Integration
+  http: ^1.1.0
+
+  # Voice & Speech
+  flutter_tts: ^3.8.0
+  avatar_glow: ^3.0.0
+
+  # Animations & Visuals
+  rive: ^0.12.4
+  lottie: ^3.0.0
+  flutter_animate: ^4.5.0
+
+  # State Management & Storage
+  provider: ^6.1.0
+  shared_preferences: ^2.2.0
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # Utilities
+  permission_handler: ^11.0.0
+  intl: ^0.19.0
+  uuid: ^4.0.0
+
+  # UI Enhancements
+  flutter_screenutil: ^5.9.0
+  google_fonts: ^6.1.0
+  shimmer: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+  hive_generator: ^2.0.0
+  build_runner: ^2.4.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/animations/orbi.riv
+    - assets/models/banned.png
+    - assets/images/images.jpg
+    - assets/icons/banned.png
+
+  fonts:
+    - family: CustomIcons
+      fonts:
+        - asset: assets/fonts/cornella/cornella-Regular.otf
